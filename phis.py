@@ -1,9 +1,9 @@
 import os,time,json,requests
 os.system("chmod +x /Abir/ngrok")
-os.system("./ngrok http 127.0.0.1:8080 > /dev/null 2>&1 &")
-os.system('rm -rf phis.py')
 
-#os.system("cd $HOME/sdcard/ngrok/ && chmod +x ngrok")
+
+
+
 
 
 

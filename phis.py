@@ -7,7 +7,7 @@ if os.path.isdir("Abir")!=True:
 	tm("mkdir -p Abir")
 if os.path.isdir("Abir/www")==True:
 	("rm -rf Abir/www")
-	tm("mkdir -p Abir/www")p
+	tm("mkdir -p Abir/www")
 else:
 	tm("mkdir -p Abir/www")
 os.system("killall php> /dev/null 2>&1")

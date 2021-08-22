@@ -21,7 +21,7 @@ time.sleep(10)
 os.system("cd $HOME")
 os.system("./ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("./Abir/ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
-os.system (10)
+time.sleep(10)
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    
     datajson = json.load(data_file)

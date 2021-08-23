@@ -1,6 +1,6 @@
 import os,json,time
-os.system("pkg install lolcat")
-os.system("pkg install gem")
+os.system("pkg install ruby")
+os.system("gem install lolcat")
 blue= '\33[94m'
 lightblue = '\033[94m'
 a="                  "+lightblue+"Author: ABIR HOSSAIN"

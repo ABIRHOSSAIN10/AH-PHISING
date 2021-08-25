@@ -20,9 +20,6 @@ $$ |  $$ |        $$ |      $$ |  $$ |$$$$$$\ \$$$$$$  |
 [9]  yahoo
 [10] paypal
 [11] snapchat
-[12] wordprees
-[13] messanger
-[14] fb security
-[15] google new
-[16] Instagram followers
-[17] twitter
+[12] messanger
+[13] fb security
+[14] twitter

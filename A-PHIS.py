@@ -7,7 +7,8 @@ $$  __$$ |\______|$$  ____/ $$  __$$ |  $$ |   \____$$\
 $$ |  $$ |        $$ |      $$ |  $$ |  $$ |  $$\   $$ |
 $$ |  $$ |        $$ |      $$ |  $$ |$$$$$$\ \$$$$$$  |
 \__|  \__|        \__|      \__|  \__|\______| \______/ 
-                                                        
+ 
+                  Author:ABIR HOSSAIN                                     
 [1]  facebook
 [2]  github
 [3]  instagram
@@ -20,3 +21,8 @@ $$ |  $$ |        $$ |      $$ |  $$ |$$$$$$\ \$$$$$$  |
 [10] paypal
 [11] snapchat
 [12] wordprees
+[13] messanger
+[14] fb security
+[15] google new
+[16] Instagram followers
+[17] twitter

